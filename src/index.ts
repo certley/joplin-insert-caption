@@ -6,7 +6,7 @@ joplin.plugins.register({
 		await joplin.commands.register({
 			name: 'insertCaption',
 			label: 'Insert Caption',
-			iconName: 'fa fa-message-captions',
+			iconName: 'fa-light fa-pen-to-square',
 			execute: async () => {
 				await joplin.commands.execute("insertText", "_**Fig:** _");
 				await joplin.commands.execute('editor.focus');
