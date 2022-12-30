@@ -6,13 +6,16 @@ joplin.plugins.register({
 		await joplin.commands.register({
 			name: 'insertCaption',
 			label: 'Insert Caption',
-			iconName: 'fa-light fa-pen-to-square',
+			iconName: 'far fa-edit',
 			execute: async () => {
 				await joplin.commands.execute("insertText", "_**Fig:** _");
 				await joplin.commands.execute('editor.focus');
 			},
 		});
 
-		await joplin.views.toolbarButtons.create('insertCaption', 'insertCaption', ToolbarButtonLocation.EditorToolbar);
+		await joplin.views.toolbarButtons.create('insertCaptionButton', 'insertCaption', ToolbarButtonLocation.EditorToolbar);
+
+	    await joplin.views.menuItems.create('myMenuItem1', 'insertCaption', MenuItemLocation.Tools, { accelerator: 'CmdOrCtrl+l' });
+
 	},
 });
