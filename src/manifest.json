@@ -1,0 +1,13 @@
+{
+	"manifest_version": 1,
+	"id": "joplin-insert-caption",
+	"app_min_version": "2.8",
+	"version": "1.0.0",
+	"name": "Insert Caption",
+	"description": "Adds a button to insert text, _**Fig:** _",
+	"author": "certley",
+	"homepage_url": "",
+	"repository_url": "",
+	"keywords": [],
+	"categories": []
+}
