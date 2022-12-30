@@ -7,7 +7,7 @@
 	"description": "Adds a button to insert text, _**Fig:** _",
 	"author": "certley",
 	"homepage_url": "",
-	"repository_url": "",
+	"repository_url": "https://github.com/certley/joplin-insert-caption.git",
 	"keywords": [],
 	"categories": []
 }
